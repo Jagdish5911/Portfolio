@@ -243,7 +243,7 @@ section{
         font-size: 26px;
     }
     .container ul{
-        margin-right: 2%;
+        margin-right: 7%;
     }
     .container li{
         margin-right: 1%;
@@ -256,9 +256,6 @@ section{
         margin-left: 10%;
         border-radius: 10%;
         width: 200px;
-    }
-    .container li{
-        margin-left: 40%;
     }
     .btn button
     {
