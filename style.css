@@ -261,10 +261,10 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 10%;
+        margin-right: 25%;
     }
     .container ul{
-        margin-right: 30%;
+        margin-right: 35%;
     }
     .container li{
         margin-right: 2%;
