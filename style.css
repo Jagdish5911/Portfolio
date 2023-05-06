@@ -190,7 +190,7 @@ section{
         position: absolute;
         left: 30%;
         right: 25%; 
-        top: 150vh;
+        top: 145vh;
         margin: 0 auto;
         width: 18%;
         height: 18%;
@@ -213,7 +213,7 @@ section{
 	}
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
     nav{
         display: block;
         justify-content: center;
@@ -230,8 +230,23 @@ section{
         margin-top: 2%;
     }
 
-}
+} */
 @media (max-width: 768px){
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .containerPic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+    }
+    .content{
+        margin-top: 2%;
+    }
     .container{
         width: 73%;
         position: static;
@@ -242,11 +257,17 @@ section{
     .nameDes h1,h2{
         font-size: 26px;
     }
-    .container ul{
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-right: 10%;
     }
+    .container ul{
+        margin-right: 30%;
+    }
     .container li{
-        margin-right: 1%;
+        margin-right: 2%;
     }
     .container img{
         filter: grayscale();
@@ -257,15 +278,8 @@ section{
         border-radius: 10%;
         width: 200px;
     }
-    .icon{
-       display:flex;
-       align-item: center; 
-       justify-content: center;
-    }
-    .btn{
-       display:flex;
-       align-item: center; 
-       justify-content: center;
+    .container li{
+        margin-left: 40%;
     }
     .btn button
     {
